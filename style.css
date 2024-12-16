@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f2f9;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background: linear-gradient(to bottom, #ffffff, #f6b0d4);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cute_logo {
+    z-index: 2;
+}
+
+.cute_head {
+    font-family: 'Lora', serif;
+    color: #333333;
+    font-size: 48px;
+    margin: 0;
+}
+
+header div {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #6a6a6a;
+}
+.cute_logo {
+    z-index: 2;
+}
+.cute_head {
+    position: relative;
+    font-size: 36px;
+    margin: 0;
+    top: -36px;
+}
+p {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff8ba0;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+main img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+main img:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+main h2, main h3 {
+    color: #ff8ba0;
+    font-family: 'Lora', serif;
+}
+
+footer {
+    background: linear-gradient(to top, #f6b0d4, #ffffff);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #4a4a4a;
+}
+
+footer em, footer strong {
+    color: #6a6a6a;
+}
+
+button {
+    background-color: #ff8ba0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 60px 10px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-image: url('img1/corgi_button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+button:hover {
+    background-color: #ffc2d1;
+}
